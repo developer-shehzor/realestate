@@ -5,7 +5,7 @@ export default function ListingItem({ listing }) {
   return (
     <div className='bg-white shadow-md hover:shadow-lg 
     transition-shadow overflow-hidden rounded-lg w-full sm:w-[330px]'>
-      <Link to={`/listings/${listing._id}`}>
+      <Link to={`/listing/${listing._id}`}>
         <img src={listing.imageUrls[0] || "https://imageio.forbes.com/specials-images/imageserve/657b29edf09ae8354c4debba/Real-estate-agents-shake-hands-after-the-signing-of-the-contract-agreement-is/960x0.jpg?height=474&width=711&fit=bounds"} alt="listing cover" 
         className='h-[320px] sm:h-[220px] w-full object-cover 
         hover:scale-105 transition-scale duration-300' />
